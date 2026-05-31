@@ -6,6 +6,13 @@
   padding: 0;
 }
 
+.luckiest-guy-regular {
+  font-family: "Luckiest Guy", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+}
+
 html {
   scroll-snap-type: y mandatory;
   overflow-y: scroll;
@@ -39,6 +46,11 @@ section {
 }
 
 .pantalla-inicio {
+  background-image: url("../image/kpopinicio.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  
   background-color: #fce4ec;
   scroll-snap-align: start;
   height: 100dvh;
@@ -112,4 +124,18 @@ section {
 .btn-whatsapp:active {
     transform: scale(0.95);
     background-color: #1ebd58;
+}
+
+.btn-musica {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1000; /* Asegura que quede por encima de todo */
+    background-color: rgba(255, 255, 255, 0.8);
+    border: none;
+    padding: 10px 15px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 0.9rem;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
