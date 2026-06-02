@@ -46,7 +46,7 @@ section {
 }
 
 .pantalla-inicio {
-  background-image: url("../image/kpopinicio.jpeg");
+  background-image: url("../image/kpopinicio.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -82,6 +82,7 @@ section {
 
 #portada {
   border-radius: 100px;
+  width: 60%;
 }
 
 .contenedor-mapa {
