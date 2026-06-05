@@ -12,9 +12,12 @@
     <link rel="stylesheet" href="./style/main.css" />
 
     <!--Google Fonts-->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Boogaloo&family=Luckiest+Guy&display=swap"
+      rel="stylesheet"
+    />
 
     <title>Cumple Luli</title>
   </head>
@@ -23,10 +26,7 @@
       <!-- Reproductor de música -->
 
       <audio id="musica-fondo" loop>
-        <source
-          src="./audio/How-Its-Done.mp3"
-          type="audio/mpeg"
-        />
+        <source src="./audio/How-Its-Done.mp3" type="audio/mpeg" />
         Tu navegador no soporta el elemento de audio.
       </audio>
 
@@ -34,23 +34,23 @@
 
       <!-- inicio -->
       <section class="pantalla-inicio">
-        <img
-          id="portada"
-          src="./image/luli.png"
-          alt="Portada del Cumpleaños"
-        />
+        <img id="portada" src="./image/luli.png" alt="Portada del Cumpleaños" />
         <h1 class="luckiest-guy-regular">Te invito a mi cumple</h1>
         <span class="flecha-abajo text-flicker-in-glow">↓ Desliza</span>
       </section>
 
       <!-- fecha y ubicación -->
       <section class="seccion-detalles">
-        <h2>¿Cuándo y Dónde?</h2>
-        <p>Fecha: 27 de Junio</p>
-        <p>Lugar: Palacios 933, Gral. Alvear</p>
+        <h2 class="boogaloo-regular text-sombra">¿Cuándo y Dónde?</h2>
+
+        <div class="tarjeta-info">
+          <p class="text-sombra">Fecha: 27 de Junio</p>
+          <p class="text-sombra">Lugar: Palacios 933, Gral. Alvear</p>
+        </div>
+
         <div class="contenedor-mapa">
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d261.51506086667047!2d-60.01270152042937!3d-36.03273262375042!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sar!4v1780180825082!5m2!1ses!2sar"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3226.453740290776!2d-60.01453984839465!3d-36.033630731174675!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9595f9cda6699f77%3A0xe1e0be53f2f5e07d!2sPalacios%20933%2C%20B7263%20Gral.%20Alvear%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1780602170078!5m2!1ses!2sar"
             allowfullscreen=""
             loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"
